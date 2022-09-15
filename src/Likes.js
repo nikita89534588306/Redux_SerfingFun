@@ -19,7 +19,7 @@ function mapStateToProps(store) {
 function mapDispatchToProps(dispatch){
     return{
         onIncrementLikes: () => {   dispatch({type:"INC"})    },
-        onDecrimentLikes: () => {   dispatch({type:"DEC"})    }
+        onDecrimentLikes: () => {   dispatch({type:"DEC"})    },
     }
 }
 
