@@ -1,7 +1,7 @@
 import './App.css';
 import Likes from './Likes';
 import Title from './Title';
-
+import Comments from './Comments';
 
 function App() {
   return (
@@ -11,8 +11,9 @@ function App() {
           <div className="card-image">
             <img src="./sea.jpg" alt="surfing"/>
             <Title/>
-            <Likes />
+            <Likes/>
           </div>
+          <Comments/>
         </div>
       </div>
     </div>
